@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Nhut Nguyen'
+copyright = '2023, Nhut Nguyen'
+author = 'Nhut Nguyen'
 
-release = '0.1'
-version = '0.1.0'
+# release = '0.1'
+# version = '0.1.0'
 
 # -- General configuration
 
@@ -29,7 +29,15 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'furo'
+# html_logo = "nhut_transparent.png"
+html_theme_options = {
+    # 'logo_only': True,
+    # "sidebar_hide_name": True,
+    # 'nosidebar': True,
+    "announcement": "Check out <a href='https://store.nhutnguyen.com/l/nhutnguyen_resume'  target='_blank'>my resume</a> for FREE!", 
+}
+
 
 # -- Options for EPUB output
-epub_show_urls = 'footnote'
+# epub_show_urls = 'footnote'
