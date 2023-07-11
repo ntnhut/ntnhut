@@ -1,10 +1,7 @@
-About
-=====
+Hello!
+======
 
+.. toctree::
+   :maxdepth: 2
 
-.. image:: nhut.jpg
-   :width: 160
-   :align: right
-
-
-.. include:: ../../README.rst
+   about
