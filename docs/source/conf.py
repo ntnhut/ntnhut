@@ -30,12 +30,13 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'furo'
+html_title = 'Nhut Nguyen'
 # html_logo = "nhut_transparent.png"
 html_theme_options = {
     # 'logo_only': True,
     # "sidebar_hide_name": True,
     # 'nosidebar': True,
-    "announcement": "Check out <a href='https://store.nhutnguyen.com/l/nhutnguyen_resume'  target='_blank'>my resume</a> for FREE!", 
+    "announcement": "Support my work by buying my books <a href='https://store.nhutnguyen.com'  target='_blank'>here</a>!", 
 }
 
 
